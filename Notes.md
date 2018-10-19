@@ -14,12 +14,15 @@ USB IDs:
  - Wireless Dongle PID: 1142
 
 To dump the LPC boot ROM:
+
     $ dump_image lpc-bootrom.bin 0x1fff0000 0x4000
 
 To dump the LPC firmware:
+
     $ dump_image lpc-flash.bin 0 0x20000
 
 To dump the NRF firmware:
+
     $ dump_image nrf-flash.bin 0 0x20000
 
 
